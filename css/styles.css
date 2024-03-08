@@ -15,7 +15,7 @@ body {
 .my-class-one {
     font-style: italic;
     color: #D4BFE6;
-    font-family: comic sans;
+    font-family: Comic Sans MS;
 	font-size: 375%
 }
 .my-class-two {
@@ -24,8 +24,9 @@ body {
 	font-size: 180%
 }
 .my-class-three {
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+	font-style: italic
 }
+
 
 .resume-header {
     background-color: #A38ABC;
