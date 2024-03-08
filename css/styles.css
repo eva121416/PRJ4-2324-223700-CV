@@ -12,9 +12,13 @@ body {
 }
 
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
+.my-class-one {
+    font-style: italic;
+    color: #CEC9D2;
+}
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #8F77A8;
 }
 
 .resume-main {
