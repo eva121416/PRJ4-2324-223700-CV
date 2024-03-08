@@ -50,6 +50,7 @@
         -->
         <div class="col-12 col-sm-8 col-md-9 col-lg-10 my-3 header-content">
           <h1 class="fw-bolder my-class-one">Eva Caluodov</h1>
+		  <hr class="header-line">
           <h5 class="fst-italic tagline my-class-two">Creative Business Student</h5>
         </div>
       </header>
@@ -59,7 +60,7 @@
         Biography and other details will be on top of each other at sizes XS and S, then next to each other.
         Use the "flex-row-reverse" class here to swap the columns around.
       -->
-      <div class="row resume-bottom">
+      <div class="row resume-bottom flex-row-reverse">
 
         <!--
           <main> is another semantic element. It will contain biographical info (professional experience and education).
@@ -70,7 +71,7 @@
             <section> is yet another semantic element. The first one is for professional experience.
           -->
           <section class="my-3 biography-section">
-            <h2 my-class-three>Educational Institutions</h2>
+            <h2 class="my-class-three">Educational Institutions</h2>
             <!--
               Each list item (li) in the unordered list (ul) below will be one job.
               "list-unstyled" is a class that hides the bullet points of a list.
@@ -118,7 +119,7 @@
           <!-- We're done with jobs, let's move on to schools -->
 
           <section class="my-3 biography-section">
-            <h2 my-class-three>Extracurricular Activities</h2>
+            <h2 class="my-class-three">Extracurricular Activities</h2>
             <ul class="biography-list list-unstyled">
 
               <!-- Top item in education. And by "top", I mean a Bachelor in Creative Business at BUas. -->
@@ -167,7 +168,7 @@
 
           <!-- The first block will be contact details -->
           <section class="my-3 aside-section">
-            <h2 my-class-three>Contact</h2>
+            <h2 class="my-class-three">Contact</h2>
             <!--
               A list of all your contact details.
               There are more icons in the images/icons folder, have a look if you want to add your LinkedIn or TikTok profile.
@@ -205,30 +206,30 @@
           <!-- End of contact details, moving on to languages -->
 
           <section class="my-3 aside-section">
-            <h2 my-class-three>Languages</h2>
+            <h2 class="my-class-three">Languages</h2>
             <!-- Each item in the list is a language. Modify, add or remove depending on what you speak -->
             <ul class="language-list list-unstyled">
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">English</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-level w-50 border my-border-class border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress my-border-class position-absolute h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Native</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">Bulgarian</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-level w-50 border my-border-class border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-100"></div>
+                  <div class="language-progress my-border-class position-absolute h-100 w-100"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Full proficiency</h6>
                 </div>
               </li>
               <li class="language-item d-flex mb-1">
                 <h5 class="language-name w-50">Dutch</h5>
-                <div class="language-level w-50 border border-info border-2 position-relative">
+                <div class="language-level w-50 border my-border-class border-2 position-relative">
                   <!-- The div below is a progress bar. Choose between w-25, w-50, w-75 and w-100 to show your level of fluency -->
-                  <div class="language-progress position-absolute bg-warning h-100 w-25"></div>
+                  <div class="language-progress my-border-class position-absolute h-100 w-25"></div>
                   <h6 class="position-absolute w-100 text-center top-0 py-1">Beginner</h6>
                 </div>
               </li>
@@ -238,7 +239,7 @@
           <!-- End of contact details, moving on to other skills -->
 
           <section class="my-3 aside-section">
-            <h2 my-class-three>Skills</h2>
+            <h2 class="my-class-three">Skills</h2>
             <ul class="skill-list list-unstyled">
               <li class="skill-item">Communication</li>
 			  <li class="skill-item">Attention to detail</li>
@@ -249,7 +250,7 @@
           <!-- End of other skills, moving on to interest and hobbies -->
 
           <section class="my-3 aside-section">
-            <h2 my-class-three>Interests &amp; Hobbies</h2>
+            <h2 class="my-class-three">Interests &amp; Hobbies</h2>
             <ul class="skill-list list-unstyled">
 				<li class="skill-item">Cooking</li>
 			    <li class="skill-item">Bouldering</li>

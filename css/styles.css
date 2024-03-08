@@ -2,9 +2,9 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:ital,wght@0,400..700;1,400..700&family=Micro+5&display=swap');
 
 /* Styles for the body */
-
 body {
 	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #202030;
@@ -15,31 +15,43 @@ body {
 .my-class-one {
     font-style: italic;
     color: #D4BFE6;
-    font-family: Comic Sans MS;
+    font-family: "Cabin", sans-serif;
 	font-size: 375%
 }
 .my-class-two {
     font-style: italic;
-    font-family: comic sans;
-	font-size: 180%
+    font-family: "Cabin", sans-serif;
+	font-weight: 400;
+	font-size: 160%
 }
 .my-class-three {
-	font-style: italic
+    font-style: bold;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
-
-
+.language-progress {
+    background-color: #B9AACE;
+}
+.language-level {
+    border-color:#A38ABC!important;
+}
+.my-border-class {
+	border-radius: 15px;
+}
+.header-line {
+	margin: 6px 2px 10px 2px;
+	color: darkslateblue;
+}
 .resume-header {
     background-color: #A38ABC;
 }
 
 .resume-main {
-	background-color: #fffefc;
+    background-color: #FFFFFF;
 }
 
 .resume-aside {
-    background-color: #BCC0DE;
+    background-color: #D0BCDE;
 }
-
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
@@ -51,7 +63,7 @@ body {
 }
 
 .biography-details li::before {
-    color: #00899E;
+    color: #A38ABC;
 }
 
 .biography-details li, .skill-list li {
