@@ -1,5 +1,7 @@
 # prj4-cv
 
+You can view my CV at: https://eva121416.github.io/PRJ4-2324-223700-CV/.
+
 A template to create a CV while learning HTML and CSS
 
 ## See it live!
