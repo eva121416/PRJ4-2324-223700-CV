@@ -23,6 +23,9 @@ body {
     font-family: comic sans;
 	font-size: 180%
 }
+.my-class-three {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
 
 .resume-header {
     background-color: #A38ABC;
