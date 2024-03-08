@@ -14,11 +14,18 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 .my-class-one {
     font-style: italic;
-    color: #CEC9D2;
+    color: #D4BFE6;
+    font-family: comic sans;
+	font-size: 375%
+}
+.my-class-two {
+    font-style: italic;
+    font-family: comic sans;
+	font-size: 180%
 }
 
 .resume-header {
-    background-color: #8F77A8;
+    background-color: #A38ABC;
 }
 
 .resume-main {
@@ -26,7 +33,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+    background-color: #BCC0DE;
 }
 
 /* Styles for lists in the document */
@@ -40,7 +47,7 @@ body {
 }
 
 .biography-details li::before {
-	color: #EE7623;
+    color: #00899E;
 }
 
 .biography-details li, .skill-list li {
